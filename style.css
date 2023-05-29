@@ -1,0 +1,174 @@
+html,
+body,
+#page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 200px auto;
+  /*grid-template-columns: 1fr 1fr;*/
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+#menu {
+  /*top: 0px;
+  width: 200px;
+  height: 100%;*/
+  background: linear-gradient(10deg, rgb(118, 2, 138) 0%, rgb(67, 2, 137) 100%);
+  font-size: 12px;
+}
+#menu #nav {
+  /*width: 20%;
+  height: 100%;*/
+  color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  display: grid;
+  /*grid-template-rows: 1fr auto 1fr;*/
+  grid-template-rows: 20% 95% 10%;
+}
+#menu #nav #nav_label {
+  height: 70px;
+  border-bottom: 1px solid #f29ede;
+  margin-top: 15px;
+}
+#menu #nav ol {
+  list-style-type: none;
+  /*margin: 0;*/
+  padding: 0;
+}
+#menu #nav ol img {
+  width: 20px;
+  height: 20px;
+}
+#menu #nav ol li {
+  display: list-item;
+  margin-top: 25px;
+}
+#menu #nav #logout {
+  align-content: flex-end;
+  margin: 20px 20px 0px 0px;
+}
+
+#page_body {
+  /*  text-align: left;*/
+  width: 80%;
+  padding: 50px;
+  justify-items: center;
+  float: right;
+}
+#page_body #head {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  column-gap: 10px;
+  margin: 0px 10px 20px 10px;
+  font-size: 30px;
+}
+#page_body #head #head_button {
+  text-align: right;
+  align-items: center;
+  justify-self: end;
+  align-self: center;
+  vertical-align: center;
+}
+#page_body #head button {
+  border: 0px;
+  cursor: pointer;
+  border-radius: 10%;
+  padding: 5px 15px 5px 15px;
+}
+#page_body #head #add {
+  background: rgb(3, 187, 33);
+  color: white;
+}
+#page_body #owners {
+  text-align: left;
+}
+#page_body #owners table {
+  border-collapse: collapse;
+  font-size: 10px;
+  width: 100%;
+}
+#page_body #owners .table_head {
+  color: gray;
+  height: 45px;
+  font-size: 13px;
+  font-style: normal;
+}
+#page_body #owners td {
+  height: 45px;
+  box-align: center;
+}
+#page_body #owners td:nth-child(1) {
+  width: 5%;
+}
+#page_body #owners td:nth-child(2) {
+  width: 30%;
+}
+#page_body #owners td:nth-child(3) {
+  width: 20%;
+}
+#page_body #owners td:nth-child(4) {
+  width: 20%;
+}
+#page_body #owners td:nth-child(5) {
+  width: 15%;
+}
+#page_body #owners .owner {
+  padding-left: 15px;
+}
+#page_body #owners tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#page_body #owners .profits {
+  color: rgb(3, 187, 33);
+}
+#page_body #owners .losses {
+  color: rgb(168, 2, 2);
+}
+#page_body #footer {
+  display: flex;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  margin: 0 auto;
+}
+#page_body #footer #footer_line {
+  margin: 0 auto;
+}
+#page_body #footer #footer_line ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+}
+#page_body #footer #footer_line ul li {
+  display: list-item;
+  padding: 5px;
+  justify-self: center;
+  align-self: center;
+}
+#page_body #footer #footer_line ul li #circle button {
+  border: 1px solid gray;
+  cursor: pointer;
+  color: gray;
+  background-color: transparent;
+  padding: 3px 7px 3px 7px;
+  border-radius: 50%;
+}
+#page_body #footer #footer_line ul li #p_num button {
+  border: none;
+  cursor: pointer;
+  color: black;
+  background-color: #f2f2f2;
+  padding: 7px 10px 7px 10px;
+  border-radius: 20%;
+}
+
+/*# sourceMappingURL=style.css.map */
